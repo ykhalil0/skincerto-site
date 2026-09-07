@@ -1,0 +1,1106 @@
+{
+  "schemaVersion": 1,
+  "id": "cheek-anatomy-01",
+  "version": "0.1.0",
+  "status": "anatomical-construction-review",
+  "clinicalReview": "pending",
+  "simulationReady": false,
+  "units": "metres",
+  "coordinateSystem": "glTF Y-up; X left-to-right on screen; +Z anterior; review positions in millimetres",
+  "sourceHead": {
+    "id": "mpfb-review-01",
+    "sha256": "587b2951b0c3706040006e139a6fee8dd7224083f2363d11f74aed23a662d64b"
+  },
+  "contextSplit": {
+    "oralInterior": "dedicated source UV island",
+    "sourceGltfUvBounds": [
+      0.75,
+      0.86,
+      0.93,
+      1.0
+    ],
+    "purpose": "hide out-of-scope mouth interior during inspection; preserve all exterior folds"
+  },
+  "inspectionWindow": {
+    "centerXYMm": [
+      -35,
+      27
+    ],
+    "radiiXYMm": [
+      27,
+      32
+    ],
+    "anteriorFromMm": 80,
+    "use": "Expose represented components; does not define an incision or anatomical excision"
+  },
+  "scale": {
+    "verified": false,
+    "provenance": "Preserved MakeHuman nominal generator scale; no specimen measurements"
+  },
+  "license": {
+    "id": "LicenseRef-Skincerto",
+    "scope": "Original Skincerto review construction; underlying MPFB core surface and textures are CC0-1.0. No third-party anatomical meshes imported."
+  },
+  "components": [
+    {
+      "node": "head.context",
+      "role": "context",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": "CC0-1.0",
+      "closed": false,
+      "vertices": 57715,
+      "faces": 114097,
+      "boundaryEdges": 1713,
+      "volumeMm3": null,
+      "geometrySha256": "81cdcaf40609d2d1744c1d191f34e9634627097a7232982e3fa20a4a422dcd39"
+    },
+    {
+      "node": "head.cavity-context",
+      "role": "context",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": "CC0-1.0",
+      "closed": false,
+      "vertices": 6445,
+      "faces": 12736,
+      "boundaryEdges": 152,
+      "volumeMm3": null,
+      "geometrySha256": "ea05ed4b8c5920889b0145ac2834f7769d6a30f7f2120420ed72c9f56d0320d9"
+    },
+    {
+      "node": "skin.window",
+      "role": "context",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": "CC0-1.0",
+      "closed": false,
+      "vertices": 10690,
+      "faces": 20559,
+      "boundaryEdges": 821,
+      "volumeMm3": null,
+      "geometrySha256": "fce1e6e78bff78b1c1496dba79d8c06d4f77a708463a8aa7305e277d2d1805ea"
+    },
+    {
+      "node": "tissue.dermis",
+      "role": "dermis",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 4290,
+      "faces": 8576,
+      "boundaryEdges": 0,
+      "volumeMm3": 2208.45895,
+      "geometrySha256": "c1e95e3f318a3f69a511ba09d7123e73e3b0d3327fec6167c4c276c594490918"
+    },
+    {
+      "node": "tissue.fat",
+      "role": "fat",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 4290,
+      "faces": 8576,
+      "boundaryEdges": 0,
+      "volumeMm3": 3899.56098,
+      "geometrySha256": "c1be339f1b903a563b20f797c9c61c131fa22413aa4ed0e2c07a403a035286df"
+    },
+    {
+      "node": "tissue.orbicularis",
+      "role": "orbicularis",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 4290,
+      "faces": 8576,
+      "boundaryEdges": 0,
+      "volumeMm3": 1591.17224,
+      "geometrySha256": "c01cbfd3add6d28ac8b3045c18d7fc28d3374b68d77cdfd9086eb7358628a46c"
+    },
+    {
+      "node": "tissue.deep-fat",
+      "role": "deep-fat",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 4290,
+      "faces": 8576,
+      "boundaryEdges": 0,
+      "volumeMm3": 2465.82939,
+      "geometrySha256": "88a1c91c255ee7d5a5c91d0cd66d0a3ac9d24595f5ad4f9c1a898df775de1321"
+    },
+    {
+      "node": "support.tarsus",
+      "role": "tarsus",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 1430,
+      "faces": 2856,
+      "boundaryEdges": 0,
+      "volumeMm3": 98.45228,
+      "geometrySha256": "1a579116928bf084b119b14fad3d01ae98d3c0a5a7084cac44d250f39cee6747"
+    },
+    {
+      "node": "support.globe",
+      "role": "globe",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 2498,
+      "faces": 4992,
+      "boundaryEdges": 0,
+      "volumeMm3": 15270.23484,
+      "geometrySha256": "ff4be2736bc57b61b2366dee14695aabe84737c2be1b9ed8d3832fbf2d4bc71b"
+    },
+    {
+      "node": "support.orbital-rim",
+      "role": "orbit",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 388,
+      "faces": 772,
+      "boundaryEdges": 0,
+      "volumeMm3": 1453.7337,
+      "geometrySha256": "0803aee862eb823fe696d2c7fdcd6aba50ce990d72bcecc774ac610fb94c8d97"
+    },
+    {
+      "node": "support.orbital-floor",
+      "role": "orbit",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 1666,
+      "faces": 3328,
+      "boundaryEdges": 0,
+      "volumeMm3": 1747.99954,
+      "geometrySha256": "47f56b0e8cd55ce2ce1243e0f55a38ce379c18ec5a44e3662782d8a48f82d638"
+    },
+    {
+      "node": "support.maxillary-wall",
+      "role": "orbit",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 2450,
+      "faces": 4896,
+      "boundaryEdges": 0,
+      "volumeMm3": 3435.74964,
+      "geometrySha256": "3771709f6d824037b2a52f414011bc6d34464373da41f930bdd600ecdd5b16b6"
+    },
+    {
+      "node": "attachment.canthal-lateral",
+      "role": "canthal",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 100,
+      "faces": 196,
+      "boundaryEdges": 0,
+      "volumeMm3": 12.16279,
+      "geometrySha256": "ca56639196d7e4e5667569cb71e9999225051be3b68063cefb4369bc2d008abc"
+    },
+    {
+      "node": "anchor.canthal-lateral",
+      "role": "anchor",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 2498,
+      "faces": 4992,
+      "boundaryEdges": 0,
+      "volumeMm3": 6.35059,
+      "geometrySha256": "df913326050e3699d69f05178443f8cc2aa7fa1c6e9c23fe95742cb23fbdd107"
+    },
+    {
+      "node": "attachment.canthal-medial",
+      "role": "canthal",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 100,
+      "faces": 196,
+      "boundaryEdges": 0,
+      "volumeMm3": 15.75127,
+      "geometrySha256": "398cbb3c369a53b26dcbf3921e3a40b28f627d659e72f4617db3881b27db4ed0"
+    },
+    {
+      "node": "anchor.canthal-medial",
+      "role": "anchor",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 2498,
+      "faces": 4992,
+      "boundaryEdges": 0,
+      "volumeMm3": 6.35059,
+      "geometrySha256": "e0743084765f4921a31303e6c9ea626ff8c3ddb803792115cdaace1725e2873f"
+    },
+    {
+      "node": "attachment.orbicularis-retaining",
+      "role": "retaining",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 686,
+      "faces": 1368,
+      "boundaryEdges": 0,
+      "volumeMm3": 313.43807,
+      "geometrySha256": "4fc208d71dab97604d69c8fb099eb01f2805923dfa3917190cadd64751b9f961"
+    },
+    {
+      "node": "attachment.dermal-0",
+      "role": "dermal-attachment",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 20,
+      "faces": 36,
+      "boundaryEdges": 0,
+      "volumeMm3": 0.67667,
+      "geometrySha256": "8a4b5392571522a8e5b28e792e4238861213f0cd674261263906661f81ceb72d"
+    },
+    {
+      "node": "attachment.dermal-1",
+      "role": "dermal-attachment",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 20,
+      "faces": 36,
+      "boundaryEdges": 0,
+      "volumeMm3": 0.41504,
+      "geometrySha256": "a7d4617b574146a73fe44f3aab8b9a6014574186cf03ba56dc49a51113c4b126"
+    },
+    {
+      "node": "attachment.dermal-2",
+      "role": "dermal-attachment",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 20,
+      "faces": 36,
+      "boundaryEdges": 0,
+      "volumeMm3": 0.30667,
+      "geometrySha256": "6b00e281e343760e4202c94a8319c9149947216e2e36130019c211fc1d2764de"
+    },
+    {
+      "node": "attachment.dermal-3",
+      "role": "dermal-attachment",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 20,
+      "faces": 36,
+      "boundaryEdges": 0,
+      "volumeMm3": 0.56138,
+      "geometrySha256": "6337d1f2993d54818a2377a19476f0dcb668156bfcaadb96b17fada387c64b34"
+    },
+    {
+      "node": "attachment.dermal-4",
+      "role": "dermal-attachment",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 20,
+      "faces": 36,
+      "boundaryEdges": 0,
+      "volumeMm3": 0.37268,
+      "geometrySha256": "b5a7fda7278f8707e7c9c67263ef71fd56ca6857b4b0716efd1418c4dfe17a5a"
+    },
+    {
+      "node": "attachment.dermal-5",
+      "role": "dermal-attachment",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 20,
+      "faces": 36,
+      "boundaryEdges": 0,
+      "volumeMm3": 0.26533,
+      "geometrySha256": "30eb1e86fa653ec213559e1e27d020d7c4526142a616a2778017bda0e6e5711f"
+    },
+    {
+      "node": "review.release-plane",
+      "role": "release",
+      "license": "LicenseRef-Skincerto",
+      "sourceLicense": null,
+      "closed": true,
+      "vertices": 2450,
+      "faces": 4896,
+      "boundaryEdges": 0,
+      "volumeMm3": 24.33883,
+      "geometrySha256": "180ab0d38035320c927390394d617f12f1dfdaba072678e272a873f3abad31a9"
+    }
+  ],
+  "regions": [
+    {
+      "id": "right-cheek-lid-review",
+      "surfaceNode": "skin.window",
+      "kind": "inspection window, not an operative incision"
+    }
+  ],
+  "supportGeometry": [
+    "support.tarsus",
+    "support.globe",
+    "support.orbital-rim",
+    "support.orbital-floor",
+    "support.maxillary-wall"
+  ],
+  "tissueDirections": [
+    {
+      "node": "tissue.dermis",
+      "status": "unassigned; no mechanical field yet"
+    },
+    {
+      "node": "tissue.orbicularis",
+      "status": "circumorbital rendering direction only; no measured fiber field"
+    }
+  ],
+  "case": {
+    "id": "cheek-3d-01",
+    "region": "right infraorbital cheek",
+    "centerMm": [
+      -36.0,
+      8.0,
+      132.66505432128906
+    ],
+    "normal": [
+      -0.43267297744750977,
+      -0.054622046649456024,
+      0.899894654750824
+    ],
+    "diameterMm": 15,
+    "ellipseLengthMm": 45,
+    "review": "provisional placement, not approved for simulation",
+    "ringMm": [
+      [
+        -29.27468490600586,
+        7.808720111846924,
+        135.38140869140625
+      ],
+      [
+        -29.28849220275879,
+        8.298904418945312,
+        135.3477783203125
+      ],
+      [
+        -29.331233978271484,
+        8.787866592407227,
+        135.3107147216797
+      ],
+      [
+        -29.402740478515625,
+        9.273468971252441,
+        135.26678466796875
+      ],
+      [
+        -29.50274658203125,
+        9.75368595123291,
+        135.21658325195312
+      ],
+      [
+        -29.630887985229492,
+        10.226298332214355,
+        135.14793395996094
+      ],
+      [
+        -29.78650665283203,
+        10.689497947692871,
+        135.07809448242188
+      ],
+      [
+        -29.968955993652344,
+        11.141228675842285,
+        134.99874877929688
+      ],
+      [
+        -30.17731285095215,
+        11.57982063293457,
+        134.9158935546875
+      ],
+      [
+        -30.410776138305664,
+        12.003168106079102,
+        134.82748413085938
+      ],
+      [
+        -30.668834686279297,
+        12.409366607666016,
+        134.7240753173828
+      ],
+      [
+        -30.950071334838867,
+        12.79661750793457,
+        134.61302185058594
+      ],
+      [
+        -31.253124237060547,
+        13.163311004638672,
+        134.4971160888672
+      ],
+      [
+        -31.576562881469727,
+        13.508245468139648,
+        134.3712921142578
+      ],
+      [
+        -31.91913604736328,
+        13.829551696777344,
+        134.24073791503906
+      ],
+      [
+        -32.27940368652344,
+        14.12586498260498,
+        134.10289001464844
+      ],
+      [
+        -32.65580749511719,
+        14.396055221557617,
+        133.95755004882812
+      ],
+      [
+        -33.046756744384766,
+        14.638801574707031,
+        133.8092498779297
+      ],
+      [
+        -33.45079803466797,
+        14.852888107299805,
+        133.6509246826172
+      ],
+      [
+        -33.86598587036133,
+        15.037581443786621,
+        133.49024963378906
+      ],
+      [
+        -34.29053497314453,
+        15.192136764526367,
+        133.3234100341797
+      ],
+      [
+        -34.72222900390625,
+        15.316132545471191,
+        133.15078735351562
+      ],
+      [
+        -35.159603118896484,
+        15.408767700195312,
+        132.9797821044922
+      ],
+      [
+        -35.60092544555664,
+        15.469382286071777,
+        132.80130004882812
+      ],
+      [
+        -36.0442008972168,
+        15.497809410095215,
+        132.6218719482422
+      ],
+      [
+        -36.48746109008789,
+        15.494112968444824,
+        132.44769287109375
+      ],
+      [
+        -36.92885971069336,
+        15.45816421508789,
+        132.26910400390625
+      ],
+      [
+        -37.36650466918945,
+        15.390165328979492,
+        132.08998107910156
+      ],
+      [
+        -37.798519134521484,
+        15.290502548217773,
+        131.91680908203125
+      ],
+      [
+        -38.223121643066406,
+        15.159558296203613,
+        131.74072265625
+      ],
+      [
+        -38.638423919677734,
+        14.997699737548828,
+        131.5451202392578
+      ],
+      [
+        -39.04266357421875,
+        14.805861473083496,
+        131.35682678222656
+      ],
+      [
+        -39.434120178222656,
+        14.584858894348145,
+        131.17628479003906
+      ],
+      [
+        -39.811100006103516,
+        14.335650444030762,
+        131.00469970703125
+      ],
+      [
+        -40.172088623046875,
+        14.059311866760254,
+        130.82598876953125
+      ],
+      [
+        -40.51565170288086,
+        13.75700855255127,
+        130.628662109375
+      ],
+      [
+        -40.840118408203125,
+        13.430042266845703,
+        130.4413299560547
+      ],
+      [
+        -41.144073486328125,
+        13.079817771911621,
+        130.2656707763672
+      ],
+      [
+        -41.426212310791016,
+        12.707901954650879,
+        130.0797119140625
+      ],
+      [
+        -41.68531799316406,
+        12.315884590148926,
+        129.88421630859375
+      ],
+      [
+        -41.92025375366211,
+        11.905348777770996,
+        129.71121215820312
+      ],
+      [
+        -42.130043029785156,
+        11.47807502746582,
+        129.55633544921875
+      ],
+      [
+        -42.31381607055664,
+        11.03608226776123,
+        129.37548828125
+      ],
+      [
+        -42.47077178955078,
+        10.581088066101074,
+        129.2089385986328
+      ],
+      [
+        -42.60017013549805,
+        10.114944458007812,
+        129.07403564453125
+      ],
+      [
+        -42.70146942138672,
+        9.639857292175293,
+        128.94186401367188
+      ],
+      [
+        -42.7741584777832,
+        9.15792465209961,
+        128.80519104003906
+      ],
+      [
+        -42.81792068481445,
+        8.670905113220215,
+        128.70404052734375
+      ],
+      [
+        -42.83271408081055,
+        8.180988311767578,
+        128.62449645996094
+      ],
+      [
+        -42.81861114501953,
+        7.69017219543457,
+        128.54852294921875
+      ],
+      [
+        -42.775718688964844,
+        7.200517654418945,
+        128.48052978515625
+      ],
+      [
+        -42.70405578613281,
+        6.7142462730407715,
+        128.4360809326172
+      ],
+      [
+        -42.60387420654297,
+        6.23344087600708,
+        128.43020629882812
+      ],
+      [
+        -42.47566604614258,
+        5.760208606719971,
+        128.43431091308594
+      ],
+      [
+        -42.31991958618164,
+        5.2965803146362305,
+        128.45704650878906
+      ],
+      [
+        -42.137210845947266,
+        4.844552516937256,
+        128.48922729492188
+      ],
+      [
+        -41.928462982177734,
+        4.406010150909424,
+        128.55294799804688
+      ],
+      [
+        -41.694583892822266,
+        3.9828338623046875,
+        128.64869689941406
+      ],
+      [
+        -41.43658447265625,
+        3.5768518447875977,
+        128.76187133789062
+      ],
+      [
+        -41.15559768676758,
+        3.1898980140686035,
+        128.8765869140625
+      ],
+      [
+        -40.852783203125,
+        2.8235037326812744,
+        129.0147247314453
+      ],
+      [
+        -40.52958297729492,
+        2.479330539703369,
+        129.1871337890625
+      ],
+      [
+        -40.18752670288086,
+        2.158778429031372,
+        129.35891723632812
+      ],
+      [
+        -39.82789993286133,
+        1.8633164167404175,
+        129.5676727294922
+      ],
+      [
+        -39.451908111572266,
+        1.594190001487732,
+        129.79489135742188
+      ],
+      [
+        -39.06098556518555,
+        1.3525749444961548,
+        130.03439331054688
+      ],
+      [
+        -38.657135009765625,
+        1.1393661499023438,
+        130.2821502685547
+      ],
+      [
+        -38.242454528808594,
+        0.9555748105049133,
+        130.54249572753906
+      ],
+      [
+        -37.81853485107422,
+        0.8019430637359619,
+        130.81883239746094
+      ],
+      [
+        -37.3869743347168,
+        0.6790749430656433,
+        131.09278869628906
+      ],
+      [
+        -36.94978332519531,
+        0.5876637101173401,
+        131.3828887939453
+      ],
+      [
+        -36.508697509765625,
+        0.5279266238212585,
+        131.6726837158203
+      ],
+      [
+        -36.0652961730957,
+        0.5001764893531799,
+        131.96096801757812
+      ],
+      [
+        -35.62164306640625,
+        0.5045453310012817,
+        132.25892639160156
+      ],
+      [
+        -35.1796875,
+        0.5409244894981384,
+        132.53268432617188
+      ],
+      [
+        -34.74245834350586,
+        0.6093195080757141,
+        132.80307006835938
+      ],
+      [
+        -34.310890197753906,
+        0.7093195915222168,
+        133.0734405517578
+      ],
+      [
+        -33.886749267578125,
+        0.8404948711395264,
+        133.34719848632812
+      ],
+      [
+        -33.47132110595703,
+        1.0022928714752197,
+        133.58839416503906
+      ],
+      [
+        -33.0669059753418,
+        1.1939849853515625,
+        133.81605529785156
+      ],
+      [
+        -32.675235748291016,
+        1.414756178855896,
+        134.03721618652344
+      ],
+      [
+        -32.29800796508789,
+        1.663649082183838,
+        134.24331665039062
+      ],
+      [
+        -31.93683624267578,
+        1.9395991563796997,
+        134.43397521972656
+      ],
+      [
+        -31.593345642089844,
+        2.2413558959960938,
+        134.59454345703125
+      ],
+      [
+        -31.268938064575195,
+        2.5676910877227783,
+        134.74143981933594
+      ],
+      [
+        -30.964984893798828,
+        2.917219400405884,
+        134.87815856933594
+      ],
+      [
+        -30.682804107666016,
+        3.288456678390503,
+        135.00408935546875
+      ],
+      [
+        -30.423778533935547,
+        3.6797478199005127,
+        135.09938049316406
+      ],
+      [
+        -30.188831329345703,
+        4.089481353759766,
+        135.18399047851562
+      ],
+      [
+        -29.978958129882812,
+        4.515910625457764,
+        135.258544921875
+      ],
+      [
+        -29.795188903808594,
+        4.957169532775879,
+        135.3089599609375
+      ],
+      [
+        -29.638212203979492,
+        5.411497592926025,
+        135.35101318359375
+      ],
+      [
+        -29.508668899536133,
+        5.876869201660156,
+        135.38307189941406
+      ],
+      [
+        -29.407167434692383,
+        6.351302146911621,
+        135.40054321289062
+      ],
+      [
+        -29.334211349487305,
+        6.832792282104492,
+        135.4008026123047
+      ],
+      [
+        -29.289995193481445,
+        7.319247722625732,
+        135.3910675048828
+      ],
+      [
+        -29.27468490600586,
+        7.808720111846924,
+        135.38140869140625
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "id": "globe.R.center",
+      "positionMm": [
+        -28.89541514096313,
+        48.851220376367294,
+        118.17542194533324
+      ],
+      "provenance": "least-squares fit to visible MPFB eye vertices; unverified"
+    },
+    {
+      "id": "canthus.R.lateral",
+      "positionMm": [
+        -45.0,
+        46.0,
+        126.0223388671875
+      ],
+      "provenance": "authored approximation to visible lid; not a bony insertion"
+    },
+    {
+      "id": "canthus.R.medial",
+      "positionMm": [
+        -17.0,
+        46.0,
+        131.67193603515625
+      ],
+      "provenance": "authored approximation to visible lid; not a bony insertion"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "canthal-lateral",
+      "from": "support.tarsus",
+      "to": "support.orbital-rim",
+      "startMm": [
+        -43.26539993286133,
+        44.50749588012695,
+        124.3245620727539
+      ],
+      "fixedSiteMm": [
+        -50.89009485003064,
+        47.34546352711847,
+        113.67578536180156
+      ],
+      "fixed": true,
+      "release": "retained",
+      "review": "provisional authored site; bony insertion not measured on this head"
+    },
+    {
+      "id": "canthal-medial",
+      "from": "support.tarsus",
+      "to": "support.orbital-rim",
+      "startMm": [
+        -16.740299224853516,
+        43.12704086303711,
+        129.93121337890625
+      ],
+      "fixedSiteMm": [
+        -6.9131993514770755,
+        46.92658354189817,
+        116.67421005488475
+      ],
+      "fixed": true,
+      "release": "retained",
+      "review": "provisional authored site; bony insertion not measured on this head"
+    },
+    {
+      "id": "dermal-0",
+      "from": "tissue.dermis",
+      "to": "tissue.orbicularis",
+      "startMm": [
+        -44.161407470703125,
+        8.210689544677734,
+        125.7007064819336
+      ],
+      "endMm": [
+        -42.13587951660156,
+        8.719585418701172,
+        123.35595703125
+      ],
+      "release": "crossed-by-proposed-plane"
+    },
+    {
+      "id": "dermal-1",
+      "from": "tissue.dermis",
+      "to": "tissue.orbicularis",
+      "startMm": [
+        -34.472190856933594,
+        8.051587104797363,
+        131.9458770751953
+      ],
+      "endMm": [
+        -33.19732666015625,
+        8.176191329956055,
+        129.0790252685547
+      ],
+      "release": "crossed-by-proposed-plane"
+    },
+    {
+      "id": "dermal-2",
+      "from": "tissue.dermis",
+      "to": "tissue.orbicularis",
+      "startMm": [
+        -23.639379501342773,
+        7.846677303314209,
+        135.53646850585938
+      ],
+      "endMm": [
+        -22.768341064453125,
+        7.476343154907227,
+        132.54251098632812
+      ],
+      "release": "crossed-by-proposed-plane"
+    },
+    {
+      "id": "dermal-3",
+      "from": "tissue.dermis",
+      "to": "tissue.orbicularis",
+      "startMm": [
+        -43.287052154541016,
+        15.079307556152344,
+        127.391357421875
+      ],
+      "endMm": [
+        -41.56501388549805,
+        15.270864486694336,
+        124.7726821899414
+      ],
+      "release": "crossed-by-proposed-plane"
+    },
+    {
+      "id": "dermal-4",
+      "from": "tissue.dermis",
+      "to": "tissue.orbicularis",
+      "startMm": [
+        -34.53252410888672,
+        13.908893585205078,
+        131.8457794189453
+      ],
+      "endMm": [
+        -33.403385162353516,
+        13.688837051391602,
+        128.92410278320312
+      ],
+      "release": "crossed-by-proposed-plane"
+    },
+    {
+      "id": "dermal-5",
+      "from": "tissue.dermis",
+      "to": "tissue.orbicularis",
+      "startMm": [
+        -23.683265686035156,
+        14.879079818725586,
+        134.79660034179688
+      ],
+      "endMm": [
+        -22.91823387145996,
+        14.58701229095459,
+        131.76527404785156
+      ],
+      "release": "crossed-by-proposed-plane"
+    }
+  ],
+  "retainingRegion": {
+    "node": "attachment.orbicularis-retaining",
+    "from": "tissue.orbicularis",
+    "to": "support.orbital-rim",
+    "release": "retained"
+  },
+  "releasePlane": {
+    "node": "review.release-plane",
+    "plane": "superficial subcutaneous review plane",
+    "depthBelowDermisMm": 1,
+    "boundsXYMm": [
+      -50,
+      6,
+      -19,
+      18
+    ],
+    "crosses": [
+      "dermal-0",
+      "dermal-1",
+      "dermal-2",
+      "dermal-3",
+      "dermal-4",
+      "dermal-5"
+    ],
+    "retains": [
+      "canthal-lateral",
+      "canthal-medial",
+      "orbicularis-retaining"
+    ],
+    "clinicalReview": "pending; chosen footprint and plane are engineering assumptions"
+  },
+  "surfaceRefinement": {
+    "region": "right lower eyelid",
+    "method": "smooth anterior relief for provisional layer stack; source UVs and XY retained",
+    "editedVertices": 713,
+    "maximumDisplacementMm": 2.7558329396074557,
+    "visualReview": "pending"
+  },
+  "measurements": {
+    "globeRadiusMm": 15.406654928557645,
+    "globeFitRmsMm": 0.15804756877033999,
+    "tarsusToGlobeMinimumMm": 0.39147033847116397,
+    "tarsusVertexClearanceMm": 0.3921609435451341
+  },
+  "assumptions": {
+    "skinCheekMm": 1.3,
+    "skinLidMm": 0.8,
+    "superficialFatCheekMm": 3,
+    "orbicularisPretarsalMm": 0.68,
+    "orbicularisPreseptalMm": 0.89,
+    "tarsalThicknessMm": 0.57,
+    "tarsalCentralHeightMm": 4.6,
+    "tarsalEndHeightMm": 3.8,
+    "fatLaw": "distinct from dermis; not calibrated",
+    "skinLaw": "anisotropic passive; not calibrated",
+    "tarsalLaw": "stiffer deformable passive support; not calibrated",
+    "attachmentLaw": "passive regional constraints; not calibrated",
+    "contact": "future one-sided repulsion; no attraction; no contact solver in this review"
+  },
+  "omitted": [
+    "active muscle and blinking",
+    "conjunctival volume",
+    "meibomian glands",
+    "lacrimal drainage",
+    "upper tarsal plate",
+    "orbital septum and lower-lid retractors",
+    "neurovascular structures",
+    "individual fat compartments",
+    "medial canthal anterior/posterior limb differentiation",
+    "validated bone segmentation",
+    "buccinator and other cheek mimetic muscles",
+    "patient-specific properties"
+  ],
+  "authoring": {
+    "blender": "4.5.12 LTS",
+    "script": "tools/blender/build_cheek_anatomy.py"
+  },
+  "files": {
+    "anatomy.glb": "cbec836313fd290b14f2dedcfc4acec1703b00a3d9bb0402e9b7c34825d43b5d",
+    "LICENSE.txt": "9d6ba59f15eea478c95317cfae3762a3cbe6e702716fcb2dfa75a047c4767c5e"
+  }
+}

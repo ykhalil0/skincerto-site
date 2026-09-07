@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "mpfb-balanced-01",
+  "name": "MPFB lower-face refinement",
+  "status": "candidate",
+  "visualApproval": "pending",
+  "clinicalReview": "pending",
+  "simulationReady": false,
+  "openEyes": true,
+  "units": "metres",
+  "scale": {
+    "provenance": "MakeHuman nominal generator scale; not specimen measurements",
+    "verified": false
+  },
+  "authoring": {
+    "blender": "4.5.12 LTS",
+    "mpfbRevision": "437dd513888a92399d1d3200d2e80859fae55abc",
+    "macros": {
+      "gender": 0.5,
+      "age": 0.5,
+      "muscle": 0.5,
+      "weight": 0.5,
+      "proportions": 0.5,
+      "height": 0.5,
+      "cupsize": 0.5,
+      "firmness": 0.5,
+      "race": {
+        "asian": 0.33,
+        "caucasian": 0.33,
+        "african": 0.33
+      }
+    }
+  },
+  "components": [
+    {
+      "node": "surface.head",
+      "kind": "surface",
+      "license": "CC0-1.0"
+    },
+    {
+      "node": "surface.human.low-poly",
+      "kind": "surface",
+      "license": "CC0-1.0"
+    },
+    {
+      "node": "surface.human.eyebrow001",
+      "kind": "surface",
+      "license": "CC0-1.0"
+    },
+    {
+      "node": "surface.human.eyelashes01",
+      "kind": "surface",
+      "license": "CC0-1.0"
+    }
+  ],
+  "landmarks": [],
+  "regions": [],
+  "tissueDirections": [],
+  "supportGeometry": [],
+  "missing": [
+    "dermis volume",
+    "subcutaneous fat",
+    "tarsal plates",
+    "canthal attachments",
+    "orbital support",
+    "reviewed landmarks"
+  ],
+  "materials": {
+    "albedo": "CC0 MakeHuman young_caucasian_female skin, retained as a review choice",
+    "normal": "Authored procedural micro-normal; not scan data",
+    "roughness": "Constant 0.52; uncalibrated"
+  },
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://static.makehumancommunity.org/about/license.html"
+  },
+  "sourceAssets": [
+    {
+      "file": "eyebrows/eyebrow001/eyebrow001.mhclo",
+      "sha256": "54c8892c2ba577f4152d779ce1f20f7cd323beb8cbd9cb701796165c221b4f5b",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "eyebrows/eyebrow001/eyebrow001.mhmat",
+      "sha256": "976e5f4f1d3922d7a11c6e2db233f8b4584b068d00619d5749687e81c92d61fc",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "eyebrows/eyebrow001/eyebrow001.obj",
+      "sha256": "88b13146395133f3901715e11706cdfd293e5d6087ad7c5e01efe1485a26b513",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "eyebrows/eyebrow001/eyebrow001.png",
+      "sha256": "9940f7d0b1b223709a19b05156ba6f6e9e4dbdbced02d7574f4d51d72c58967b",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "eyelashes/eyelashes01/eyelashes01.mhclo",
+      "sha256": "5a86b29c15649273d723084954b7fa7bf199112571d4f58539b46734d397ee6b",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "eyelashes/eyelashes01/eyelashes01.mhmat",
+      "sha256": "8029c99d94f3d87a1e81825fad6b90eec773ae6955a5b2592222ef237377e190",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "eyelashes/eyelashes01/eyelashes01.obj",
+      "sha256": "f78f5b93fea1946fcae103d32c4f082dd9612a1ec2e7e2f90b03ebe59b0baf20",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "eyelashes/eyelashes01/eyelashes01.png",
+      "sha256": "4b69c0fff2648874460e9caf80c31413c444218a5c50afebc425aeaa65484a35",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "eyes/low-poly/low-poly.mhclo",
+      "sha256": "68582e28e9176cba7cfcf35208f671b6201b8d1bc95c32decff61a3160ec34d8",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "eyes/low-poly/low-poly.obj",
+      "sha256": "783fe1e6331162c876520b4c2bed7a8ca06354ca15497e8ebd68bb1b59f4d3de",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "eyes/materials/brown.mhmat",
+      "sha256": "4abad93ce50541c08127721e77bce035640c9f16bed16cd0f5524b1cd5908465",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "eyes/materials/brown_eye.png",
+      "sha256": "4659691c7295ad6206c78b003e5fd0e5f91dcd53032fa914a229bb48cabe424b",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "skins/young_caucasian_female/young_caucasian_female.mhmat",
+      "sha256": "0bdea7786201f0b1132a24088336a97496ccdc54e9984db65d253a6a6d66f24f",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "skins/young_caucasian_female/young_lightskinned_female_diffuse.png",
+      "sha256": "b2a6ac8cd4f9febdb447368e29c76cd68410bb66e46d9dcfa2d5f75126eea8fc",
+      "license": "CC0-1.0"
+    }
+  ],
+  "geometry": {
+    "surfaceVertices": 69381,
+    "totalVertices": 69851,
+    "blenderBoundsMetres": {
+      "min": [
+        -0.08223190158605576,
+        -0.15952524542808533,
+        -0.1000000387430191
+      ],
+      "max": [
+        0.08223189413547516,
+        0.046876583248376846,
+        0.15379032492637634
+      ]
+    },
+    "gltfBoundsMetres": {
+      "min": [
+        -0.08223190158605576,
+        -0.1000000387430191,
+        -0.046876583248376846
+      ],
+      "max": [
+        0.08223189413547516,
+        0.15379032492637634,
+        0.15952524542808533
+      ]
+    }
+  },
+  "files": {
+    "head.glb": "277425eefcc5c7af8eba4107d48e70b01720e4c985c31c7463484c543a6ef669",
+    "LICENSE.txt": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c"
+  },
+  "parent": {
+    "path": "models/mpfb-review/head.glb",
+    "sha256": "587b2951b0c3706040006e139a6fee8dd7224083f2363d11f74aed23a662d64b"
+  },
+  "refinement": {
+    "blender": "4.5.12 LTS",
+    "operation": "Symmetric, smoothly blended lower-jaw width, chin height and projection",
+    "maximumSurfaceDisplacementMm": 2.8396115180227857,
+    "changedVertices": 6879,
+    "protectedVertices": 59129,
+    "protectedRegion": "All rest points with glTF Y >= -20 mm; unchanged byte for byte",
+    "designOffsetsMm": {
+      "lateralJawPerSide": 1.4,
+      "chinHeight": 2.5,
+      "chinProjection": 1.25
+    },
+    "rationale": "Modest visual refinement of the selected neutral head; not an optimization to universal aesthetic ratios",
+    "limitations": [
+      "No bony gonion or ramus in this surface asset",
+      "Full facial landmark review remains pending",
+      "Not connected to the closure model pending visual review"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+Component rights
+
+The underlying MakeHuman / MPFB core surface and texture assets are CC0 1.0.
+Their source identities, licenses and hashes are recorded in the referenced
+mpfb-review/head.json manifest. See:
+https://static.makehumancommunity.org/about/license.html
+https://creativecommons.org/publicdomain/zero/1.0/
+
+The additional anatomical review construction, registration data and scripts
+are original Skincerto work (LicenseRef-Skincerto). This record does not dedicate
+that original work to the public domain or grant third-party redistribution
+rights. No research figures, commercial anatomical meshes, ArtiSynth geometry
+or BodyParts3D geometry have been incorporated in this asset.
+
+Literature citations provide references for review; they do not confer rights
+to copy source illustrations and do not validate the constructed anatomy.
