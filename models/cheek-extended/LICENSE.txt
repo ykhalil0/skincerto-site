@@ -1,0 +1,9 @@
+Underlying MakeHuman core head surface and textures: CC0 1.0 Universal.
+Source: the MPFB core assets recorded in ../mpfb-review/head.json and LICENSE.txt.
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Original Skincerto anatomical construction, remeshing and domain metadata:
+LicenseRef-Skincerto. All rights reserved by the project owner.
+No additional purchased, attribution-required, research-model or patient assets
+were imported for this increment. This record does not change the license of
+the Blender or MPFB software used during authoring.

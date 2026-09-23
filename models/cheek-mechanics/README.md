@@ -17,12 +17,12 @@ preserved. This asset is a development increment, not validated patient anatomy.
 The source records its parent anatomy GLB SHA-256 and a hash of its mechanics
 geometry. The maxillary scaffold has a recorded posterior clearance correction
 (up to 21.0355 mm); its location is an uncalibrated authoring assumption. The original generator scale
-and anatomical assumptions remain uncalibrated. Preparation reserves room for
-the dermal thickness at the source's display-only lid rim; its maximum extra
-anterior adjustment is recorded in `surfaceRefinement` (6.032519 mm). Some
-adjustments are on previously recessed inner/upper display-rim surfaces. This
-is explicit authoring geometry, not a physiological movement or measurement.
-Clinical review and further visual refinement remain necessary.
+and anatomical assumptions remain uncalibrated. The bilateral 25 mm eye refit
+comes from the parent anatomy construction. Visible eyes and contact geometry
+agree. The former secondary anterior lid correction is removed:
+`surfaceRefinement` now records zero adjustments. The exporter samples the shared
+authored surface directly. Clinical review and further visual refinement remain
+necessary; a symmetric visible face does not validate internal anatomy.
 
 The construction chart covers one anterior cheek/lower-lid region; nasal and
 oral folds and the upper lid lie outside the simulated region. A 0.05 mm weld

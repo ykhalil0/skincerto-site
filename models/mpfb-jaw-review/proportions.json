@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "units": "mm from glTF metres",
+  "status": "founder rejected this candidate as too masculine; anatomical landmark review remains pending",
+  "sourceHash": "587b2951b0c3706040006e139a6fee8dd7224083f2363d11f74aed23a662d64b",
+  "candidateHash": "d187ee5e44d3c5f7c774a0fadc380b3cefe325b159ed9deff7ba509b1a8efc07",
+  "candidateId": "mpfb-jaw-review",
+  "method": "Author-selected surface targets snapped to source vertices; identical vertex indices measured on the refinement. Frontal widths/heights are axis projections, not geodesic lengths. Profile projection uses glTF Z.",
+  "limitations": [
+    "Hairline/trichion is an explicit authoring assumption for this stubble head",
+    "Landmarks require review in annotated front and profile views",
+    "Generator scale is not specimen calibration",
+    "No bony gonion, ramus height or skeletal angle is measured",
+    "No universal aesthetic score or target is asserted"
+  ],
+  "landmarks": [
+    {
+      "id": "trichion",
+      "vertex": 15107,
+      "beforeMm": [
+        5.112785542160658e-08,
+        109.82516407966614,
+        131.5062791109085
+      ],
+      "afterMm": [
+        5.112785542160658e-08,
+        109.82516407966614,
+        131.5062791109085
+      ],
+      "status": "authored hairline choice"
+    },
+    {
+      "id": "glabella",
+      "vertex": 7969,
+      "beforeMm": [
+        -1.0172952757958598e-08,
+        57.88612738251686,
+        142.76094734668732
+      ],
+      "afterMm": [
+        -1.0172952757958598e-08,
+        57.88612738251686,
+        142.76094734668732
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "subnasale",
+      "vertex": 27948,
+      "beforeMm": [
+        -8.640199666842818e-09,
+        0.1311382802668959,
+        149.40717816352844
+      ],
+      "afterMm": [
+        -8.640199666842818e-09,
+        0.1311382802668959,
+        149.40717816352844
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "menton",
+      "vertex": 767,
+      "beforeMm": [
+        -2.563516759979123e-08,
+        -59.36432629823685,
+        127.05005705356598
+      ],
+      "afterMm": [
+        -2.563516759979123e-08,
+        -61.720993369817734,
+        128.22839617729187
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "stomion",
+      "vertex": 18125,
+      "beforeMm": [
+        -4.547473508864641e-09,
+        -16.940323635935783,
+        147.58296310901642
+      ],
+      "afterMm": [
+        -4.547473508864641e-09,
+        -16.940323635935783,
+        147.58296310901642
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "pogonion",
+      "vertex": 22380,
+      "beforeMm": [
+        -3.637978807091713e-09,
+        -41.928574442863464,
+        141.97038114070892
+      ],
+      "afterMm": [
+        -3.637978807091713e-09,
+        -44.42857578396797,
+        143.22037994861603
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "nasion",
+      "vertex": 133,
+      "beforeMm": [
+        -5.0081883085084655e-09,
+        46.15308344364166,
+        141.5787935256958
+      ],
+      "afterMm": [
+        -5.0081883085084655e-09,
+        46.15308344364166,
+        141.5787935256958
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "endocanthion.R",
+      "vertex": 45811,
+      "beforeMm": [
+        -16.994280740618706,
+        43.94904151558876,
+        131.7143738269806
+      ],
+      "afterMm": [
+        -16.994280740618706,
+        43.94904151558876,
+        131.7143738269806
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "endocanthion.L",
+      "vertex": 65119,
+      "beforeMm": [
+        16.994280740618706,
+        43.94904524087906,
+        131.7143738269806
+      ],
+      "afterMm": [
+        16.994280740618706,
+        43.94904524087906,
+        131.7143738269806
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "exocanthion.R",
+      "vertex": 42448,
+      "beforeMm": [
+        -45.06479948759079,
+        43.79737004637718,
+        124.39677864313126
+      ],
+      "afterMm": [
+        -45.06479948759079,
+        43.79737004637718,
+        124.39677864313126
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "exocanthion.L",
+      "vertex": 61796,
+      "beforeMm": [
+        45.06479948759079,
+        43.79737004637718,
+        124.39677864313126
+      ],
+      "afterMm": [
+        45.06479948759079,
+        43.79737004637718,
+        124.39677864313126
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "alare.R",
+      "vertex": 46441,
+      "beforeMm": [
+        -15.0289386510849,
+        1.9294505473226309,
+        142.8028792142868
+      ],
+      "afterMm": [
+        -15.0289386510849,
+        1.9294505473226309,
+        142.8028792142868
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "alare.L",
+      "vertex": 65740,
+      "beforeMm": [
+        15.0289386510849,
+        1.9294505473226309,
+        142.802894115448
+      ],
+      "afterMm": [
+        15.0289386510849,
+        1.9294505473226309,
+        142.802894115448
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "cheilion.R",
+      "vertex": 4849,
+      "beforeMm": [
+        -23.079080507159233,
+        -16.58659614622593,
+        140.21062850952148
+      ],
+      "afterMm": [
+        -23.079080507159233,
+        -16.58659614622593,
+        140.21062850952148
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "cheilion.L",
+      "vertex": 6484,
+      "beforeMm": [
+        23.079078644514084,
+        -16.58659614622593,
+        140.21062850952148
+      ],
+      "afterMm": [
+        23.079078644514084,
+        -16.58659614622593,
+        140.21062850952148
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "zygion_surface.R",
+      "vertex": 43664,
+      "beforeMm": [
+        -58.786142617464066,
+        13.62738385796547,
+        107.60536789894104
+      ],
+      "afterMm": [
+        -58.786142617464066,
+        13.62738385796547,
+        107.60536789894104
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "zygion_surface.L",
+      "vertex": 63014,
+      "beforeMm": [
+        58.78615006804466,
+        13.627384789288044,
+        107.60536789894104
+      ],
+      "afterMm": [
+        58.78615006804466,
+        13.627384789288044,
+        107.60536789894104
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "jaw_surface.R",
+      "vertex": 9195,
+      "beforeMm": [
+        -48.45409095287323,
+        -30.030077323317528,
+        99.27404671907425
+      ],
+      "afterMm": [
+        -49.90866035223007,
+        -33.91162306070328,
+        98.81316125392914
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "jaw_surface.L",
+      "vertex": 10743,
+      "beforeMm": [
+        48.45409095287323,
+        -30.030077323317528,
+        99.27403926849365
+      ],
+      "afterMm": [
+        49.90866035223007,
+        -33.91162306070328,
+        98.81315380334854
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "posterior_jaw_contour.R",
+      "vertex": 37623,
+      "beforeMm": [
+        -46.71739041805267,
+        -37.061821669340134,
+        74.0571990609169
+      ],
+      "afterMm": [
+        -47.738563269376755,
+        -41.242871433496475,
+        73.35720211267471
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    },
+    {
+      "id": "posterior_jaw_contour.L",
+      "vertex": 56989,
+      "beforeMm": [
+        46.71739041805267,
+        -37.061817944049835,
+        74.0571916103363
+      ],
+      "afterMm": [
+        47.738563269376755,
+        -41.24286770820618,
+        73.35719466209412
+      ],
+      "status": "surface authoring landmark; visual review pending"
+    }
+  ],
+  "before": {
+    "upperThirdMm": 51.93903669714928,
+    "middleThirdMm": 57.754989102249965,
+    "lowerThirdMm": 59.49546457850374,
+    "intercanthalWidthMm": 33.98856148123741,
+    "rightEyeWidthMm": 28.070518746972084,
+    "leftEyeWidthMm": 28.070518746972084,
+    "noseWidthMm": 30.0578773021698,
+    "mouthWidthMm": 46.15815915167332,
+    "cheekWidthMm": 117.57229268550873,
+    "oneFifthOfAuthoredCheekWidthMm": 23.514458537101746,
+    "jawWidthMm": 96.90818190574646,
+    "subnasaleToStomionMm": 17.07146191620268,
+    "stomionToMentonMm": 42.42400266230106,
+    "chinProjectionRelativeToSubnasaleMm": -7.436797022819519
+  },
+  "after": {
+    "upperThirdMm": 51.93903669714928,
+    "middleThirdMm": 57.754989102249965,
+    "lowerThirdMm": 61.85213165008463,
+    "intercanthalWidthMm": 33.98856148123741,
+    "rightEyeWidthMm": 28.070518746972084,
+    "leftEyeWidthMm": 28.070518746972084,
+    "noseWidthMm": 30.0578773021698,
+    "mouthWidthMm": 46.15815915167332,
+    "cheekWidthMm": 117.57229268550873,
+    "oneFifthOfAuthoredCheekWidthMm": 23.514458537101746,
+    "jawWidthMm": 99.81732070446014,
+    "subnasaleToStomionMm": 17.07146191620268,
+    "stomionToMentonMm": 44.78066973388195,
+    "chinProjectionRelativeToSubnasaleMm": -6.1867982149124146
+  }
+}

@@ -76,7 +76,7 @@
       "faces": 20559,
       "boundaryEdges": 821,
       "volumeMm3": null,
-      "geometrySha256": "fce1e6e78bff78b1c1496dba79d8c06d4f77a708463a8aa7305e277d2d1805ea"
+      "geometrySha256": "c244b202f8d3e3c7c0f481dc2a2e829c3a64efb01aebe9c0bc0ef0e3a6c18af0"
     },
     {
       "node": "tissue.dermis",
@@ -87,8 +87,8 @@
       "vertices": 4290,
       "faces": 8576,
       "boundaryEdges": 0,
-      "volumeMm3": 2208.45895,
-      "geometrySha256": "c1e95e3f318a3f69a511ba09d7123e73e3b0d3327fec6167c4c276c594490918"
+      "volumeMm3": 2197.40887,
+      "geometrySha256": "1c38675c75f963cd2bc4288b3ee3cec2a4464c9684d40dae76329a92ada3ed5c"
     },
     {
       "node": "tissue.fat",
@@ -111,8 +111,8 @@
       "vertices": 4290,
       "faces": 8576,
       "boundaryEdges": 0,
-      "volumeMm3": 1591.17224,
-      "geometrySha256": "c01cbfd3add6d28ac8b3045c18d7fc28d3374b68d77cdfd9086eb7358628a46c"
+      "volumeMm3": 1577.519,
+      "geometrySha256": "0822be424a68fe247c3bb6b41ad39ac4794253b5ef7a76ac3810e21c2d07ff5a"
     },
     {
       "node": "tissue.deep-fat",
@@ -135,8 +135,8 @@
       "vertices": 1430,
       "faces": 2856,
       "boundaryEdges": 0,
-      "volumeMm3": 98.45228,
-      "geometrySha256": "1a579116928bf084b119b14fad3d01ae98d3c0a5a7084cac44d250f39cee6747"
+      "volumeMm3": 80.33016,
+      "geometrySha256": "3a0f187d7ac21a78eae002821939579cf51bfddafbadb9ab0fe974680be9d800"
     },
     {
       "node": "support.globe",
@@ -147,8 +147,8 @@
       "vertices": 2498,
       "faces": 4992,
       "boundaryEdges": 0,
-      "volumeMm3": 15270.23484,
-      "geometrySha256": "ff4be2736bc57b61b2366dee14695aabe84737c2be1b9ed8d3832fbf2d4bc71b"
+      "volumeMm3": 8155.5025,
+      "geometrySha256": "87902bc72ddd6b8e4843d0c73c815f73bf1b9bf061636885be0eb3358c275379"
     },
     {
       "node": "support.orbital-rim",
@@ -195,8 +195,8 @@
       "vertices": 100,
       "faces": 196,
       "boundaryEdges": 0,
-      "volumeMm3": 12.16279,
-      "geometrySha256": "ca56639196d7e4e5667569cb71e9999225051be3b68063cefb4369bc2d008abc"
+      "volumeMm3": 11.69274,
+      "geometrySha256": "021759b9f27a813eac8002108421e3b376a22288d366024c0e2314ed09884fae"
     },
     {
       "node": "anchor.canthal-lateral",
@@ -208,7 +208,7 @@
       "faces": 4992,
       "boundaryEdges": 0,
       "volumeMm3": 6.35059,
-      "geometrySha256": "df913326050e3699d69f05178443f8cc2aa7fa1c6e9c23fe95742cb23fbdd107"
+      "geometrySha256": "d49d9b0b90bd107438f7ea564d3a64c8ef5faba358d804683f8016ba481d64ab"
     },
     {
       "node": "attachment.canthal-medial",
@@ -219,8 +219,8 @@
       "vertices": 100,
       "faces": 196,
       "boundaryEdges": 0,
-      "volumeMm3": 15.75127,
-      "geometrySha256": "398cbb3c369a53b26dcbf3921e3a40b28f627d659e72f4617db3881b27db4ed0"
+      "volumeMm3": 15.71253,
+      "geometrySha256": "79aa1a6677402cdb9bdbe5438bf651c286f904a58eea0fb48981e63224e1a1d5"
     },
     {
       "node": "anchor.canthal-medial",
@@ -232,7 +232,7 @@
       "faces": 4992,
       "boundaryEdges": 0,
       "volumeMm3": 6.35059,
-      "geometrySha256": "e0743084765f4921a31303e6c9ea626ff8c3ddb803792115cdaace1725e2873f"
+      "geometrySha256": "e413489feb7f2d4641c327f295f17ec8bab1516c301e48e919a9a5a18f238d18"
     },
     {
       "node": "attachment.orbicularis-retaining",
@@ -863,9 +863,9 @@
     {
       "id": "globe.R.center",
       "positionMm": [
-        -28.89541514096313,
-        48.851220376367294,
-        118.17542194533324
+        -28.89541475064031,
+        48.85121969227854,
+        121.05866742773497
       ],
       "provenance": "least-squares fit to visible MPFB eye vertices; unverified"
     },
@@ -874,7 +874,7 @@
       "positionMm": [
         -45.0,
         46.0,
-        126.0223388671875
+        124.53687286376953
       ],
       "provenance": "authored approximation to visible lid; not a bony insertion"
     },
@@ -883,7 +883,7 @@
       "positionMm": [
         -17.0,
         46.0,
-        131.67193603515625
+        131.5537109375
       ],
       "provenance": "authored approximation to visible lid; not a bony insertion"
     }
@@ -894,9 +894,9 @@
       "from": "support.tarsus",
       "to": "support.orbital-rim",
       "startMm": [
-        -43.26539993286133,
-        44.50749588012695,
-        124.3245620727539
+        -43.818782806396484,
+        44.0034065246582,
+        122.85696411132812
       ],
       "fixedSiteMm": [
         -50.89009485003064,
@@ -912,9 +912,9 @@
       "from": "support.tarsus",
       "to": "support.orbital-rim",
       "startMm": [
-        -16.740299224853516,
-        43.12704086303711,
-        129.93121337890625
+        -16.700366973876953,
+        43.09580993652344,
+        129.95347595214844
       ],
       "fixedSiteMm": [
         -6.9131993514770755,
@@ -1054,17 +1054,61 @@
     "clinicalReview": "pending; chosen footprint and plane are engineering assumptions"
   },
   "surfaceRefinement": {
-    "region": "right lower eyelid",
-    "method": "smooth anterior relief for provisional layer stack; source UVs and XY retained",
-    "editedVertices": 713,
-    "maximumDisplacementMm": 2.7558329396074557,
+    "region": "bilateral eyelids",
+    "method": "original facial surface and lashes retained; no anterior lid relief",
+    "editedVertices": 0,
+    "maximumDisplacementMm": 0,
     "visualReview": "pending"
   },
+  "eyeReconstruction": {
+    "version": 1,
+    "method": "bilateral authored refit, fixed anterior apex and XY centre; matching contact fit",
+    "eyes": [
+      {
+        "side": "R",
+        "originalCenterMm": [
+          -28.89541514096313,
+          48.851220376367294,
+          118.17542194533324
+        ],
+        "originalFittedDiameterMm": 30.81330985711529,
+        "centerMm": [
+          -28.89541514096313,
+          48.851220376367294,
+          121.05866684085774
+        ],
+        "fittedDiameterMm": 25,
+        "anteriorApexMm": 133.45799255371094,
+        "scale": 0.8113377016596969
+      },
+      {
+        "side": "L",
+        "originalCenterMm": [
+          28.89541514096313,
+          48.851220376367294,
+          118.17542194533324
+        ],
+        "originalFittedDiameterMm": 30.81330985711529,
+        "centerMm": [
+          28.89541514096313,
+          48.851220376367294,
+          121.05866684085774
+        ],
+        "fittedDiameterMm": 25,
+        "anteriorApexMm": 133.45799255371094,
+        "scale": 0.8113377016596969
+      }
+    ],
+    "nominalDiameterMm": 25,
+    "clinicalReview": "pending",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/25431659/",
+    "limitations": "Nominal teaching geometry within reported adult variation; not a measured subject or validated orbit. External facial proportions unchanged."
+  },
   "measurements": {
-    "globeRadiusMm": 15.406654928557645,
-    "globeFitRmsMm": 0.15804756877033999,
-    "tarsusToGlobeMinimumMm": 0.39147033847116397,
-    "tarsusVertexClearanceMm": 0.3921609435451341
+    "globeRadiusMm": 12.500000419660493,
+    "globeFitRmsMm": 0.1282303617586597,
+    "tarsusToGlobeMinimumMm": 0.11581092830093276,
+    "tarsusVertexClearanceMm": 0.11715457232478066
   },
   "assumptions": {
     "skinCheekMm": 1.3,
@@ -1100,7 +1144,6 @@
     "script": "tools/blender/build_cheek_anatomy.py"
   },
   "files": {
-    "anatomy.glb": "cbec836313fd290b14f2dedcfc4acec1703b00a3d9bb0402e9b7c34825d43b5d",
-    "LICENSE.txt": "9d6ba59f15eea478c95317cfae3762a3cbe6e702716fcb2dfa75a047c4767c5e"
+    "anatomy.glb": "655cc9756f1ef2d17dff217cbd78ced5844930ea1fea319242a60b995be88af3"
   }
 }
