@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "fingerprints": {
     "src/content/cheekKernel.ts": "e4e41472f519201e4ae72af817d745b19149c0f3dfac741696526231378b9442",
     "src/content/numerics/cheek.wasm": "f14070b16db8f42eaf9762d3b0a9b9c2a75dfa734f6499b2b923dac6d9243198",
@@ -22,23 +22,25 @@
     "src/engine/surface/defectTypes.ts": "911b7797e1eac39f9d8f99e1d74084227d1b2c70dabfdb776c2abf64a575e037",
     "src/engine/surface/directionalRepair.ts": "f2661f71e0b6cdab6af5388223d88b8870e8d8a6a4b92d800b8dc1d3d83669af",
     "src/engine/surface/domain.ts": "70c81200672be83f9afa8322f92d0df30be69d0d6a5a863dd6dd0c9039747aa8",
-    "src/engine/surface/edgeContact.ts": "8754c530ea9fff946eebc3d82e58e756d8e846acf59e851e8c65f7a076a9c581",
+    "src/engine/surface/edgeContact.ts": "9285789f5caa4d8038b4b0ce980e7c9547a6206e71de67c0e4b684e750e104d0",
     "src/engine/surface/editableStitches.ts": "82f02117724368b20fb156bd7f66258956477d4e3d0fbbb681cd9dd732c10391",
     "src/engine/surface/eversion.ts": "017df05ba64507d988d8f45ed33800d79c33d5a603f8eca7bd6a1e15c84140ef",
     "src/engine/surface/grip.ts": "e0e96c5f4624e7f8558f496714a0331e93d7b1c458abd9d5055670c05458afb8",
     "src/engine/surface/integration.ts": "81a1def8015ff7d5233d7dac3d5f0197f86023b186f2a4f8246e8f3483912025",
     "src/engine/surface/manualStitch.ts": "9345702c377bc0f292454e620ffe49f3bf0ce29f3595b3a0c2a07c26ca6dd8a3",
     "src/engine/surface/movingBounds.ts": "78c805c8e2cf613781312b7263561dc719036883a7043c77887016a75c975c6a",
+    "src/engine/surface/nearestBounds.ts": "fd966eef3f072651cd8b6609741e4364e8b247d5dacae842b3a7d9db5edda396",
     "src/engine/surface/opening.ts": "5c6cf48cd3cb9a67c7d4de41672b65a1906c7340fc0010f6c596a66e9a1a56e2",
     "src/engine/surface/preparedRepair.ts": "d70982012a745e2dcc6bf42690bb1df245458ba0e9dff3d1d67f0eac3201b94b",
     "src/engine/surface/presetEdits.ts": "5139501c34ccdb240dd9323db2997a5d09d119da29914fb3017747722c463437",
     "src/engine/surface/projector.ts": "f0c63855d92afc0d9f291f5d4bc0d26716c79f34a10fe12a27d4a0b30337a021",
     "src/engine/surface/referenceSteps.ts": "f332afec7c3e93b6f0d7c9f25d3813ce449c204650d017758933d5013ffa426f",
-    "src/engine/surface/selfContact.ts": "247dfee1ee1b017e9e0b9f2724d45f01942eb84efee42ac9a1019c716b19ed12",
+    "src/engine/surface/selfContact.ts": "82bad75bcec39622393eb8cfc9eed1f03d620cc9261e9a1797ce287f3532d1f2",
     "src/engine/surface/session.ts": "37298792545d74b32ee0ee83d2a2c404df2bc156964f5953bad0b222fec227ba",
-    "src/engine/surface/slidingContact.ts": "ebd163f98ad1537c08e80d61c6a04cbf5e5384eee288aeee8f2e68c6dcd4eeb9",
+    "src/engine/surface/slidingContact.ts": "954a9f7ab659215c0a4aa89f9e53b84d493a2e34f35b90ee2abeaf0d47332d57",
     "src/engine/surface/solver.ts": "b5fe2a2d35cf17ad9cb88362a70c0793dd35017d0cd6c97956852cbc2eefb53b",
     "src/engine/surface/strain.ts": "c713f8488d75a2a1419cb68bf8a6dbe10bfae8b248c053be190cf7219d946d23",
+    "src/engine/surface/trianglePointScratch.ts": "735691892f8ecb525167ad90dbe574295fea107c5a6b3145eeb190289e014b17",
     "src/engine/tissueVolume.ts": "1379de79959c3b46407664eb549bbfac44bc9c784345efda1d5d58055e48c6ae",
     "src/engine/types.ts": "e47ab1cd61ff35a04a1df237fe1b5980579c49f0a4d154ca24841b91bfe1346a"
   },
@@ -52,7 +54,21 @@
       "bytes": 44420899,
       "uncompressedBytes": 77082153,
       "uncompressedSha256": "4db5994ba7201385d319a0428ae226b8a1853d3f5d4732224d6c4de07c4c5593",
-      "frames": 172
+      "frames": 172,
+      "domain": {
+        "file": "advancement-10.domain.json.gz",
+        "sha256": "2b14a406b958306bf74264177145c8f70d9c8aaf108d63806649bb26bc5038e3",
+        "bytes": 1813741,
+        "uncompressedBytes": 6564949,
+        "uncompressedSha256": "e2554c9dafdf3de6b11eefd235efa4a01400816656c0d9d2d1c69645e9b81d30"
+      },
+      "measurements": {
+        "file": "advancement-10.measurements.json.gz",
+        "sha256": "616f21d468aab150ba2348d6fc4f6f3e1ea3973dd4379821550dcf8e8512339a",
+        "bytes": 59863,
+        "uncompressedBytes": 270610,
+        "uncompressedSha256": "485a48ebd5822a688a886b95a654fd3e6e938d094b5543ff515a49228e59f0be"
+      }
     },
     {
       "diameterMm": 15,
@@ -62,7 +78,21 @@
       "bytes": 54105984,
       "uncompressedBytes": 92664784,
       "uncompressedSha256": "f5ab03104dcf3bf1fd4d0d0e0dcb03f9d5ffcef9767e856e02acaf5bcf288eb8",
-      "frames": 208
+      "frames": 208,
+      "domain": {
+        "file": "advancement-15.domain.json.gz",
+        "sha256": "2947964cd0da1ca9250aa6f924b0d32a47b77145a11303bc846e026a9266396c",
+        "bytes": 1798704,
+        "uncompressedBytes": 6507133,
+        "uncompressedSha256": "5ede31c5c53aff65af8dbbece221011b4fd7da31da5b58c469fc86fa29c81208"
+      },
+      "measurements": {
+        "file": "advancement-15.measurements.json.gz",
+        "sha256": "8a96cc05390e5615fd904d269d11f93b9cee8675c7a4adb3bf99416610b9e950",
+        "bytes": 76171,
+        "uncompressedBytes": 338459,
+        "uncompressedSha256": "b9b671c50f63e7a427f9907d70585e5557583c2d184a75c6f620e9cd1b0e77fc"
+      }
     }
   ]
 }
